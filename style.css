@@ -1,0 +1,19 @@
+body {
+    background-image: url(img/pexels-photo-1353938.webp);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container {
+    width: 70%;
+    height: 30rem;
+    backdrop-filter: blur(15px);
+}
+#result {
+    width: 70%;
+}
+mark {
+    background-color: greenyellow;
+    color: rgb(100, 70, 70);
+  }
