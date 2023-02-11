@@ -39,8 +39,8 @@ async function getNameInfo() {
       });
       div_1.appendChild(sub_div);
       sub_div.innerHTML = `<p class="text-capitalize fw-bold lh-lg">
-        <h2 class="text-uppercase">Name:<mark>${name_value.value}</mark></h2>
-        <h4>Possable Countries</h4>
+        <h2 class="text-uppercase">Name:<mark>${name_value.value}</mark></h2><br>
+        <h4>Possible Countries</h4>
       </p>
       <table class="table">
   <thead>
@@ -72,7 +72,7 @@ async function getNameInfo() {
       div_1.appendChild(sub_div);
       sub_div.innerHTML = `<p class="text-capitalize fw-bold lh-lg">
           <h2 class="text-uppercase">Name:<mark>${name_value.value}</mark></h2>
-          <h4>Possable Countries</h4>
+          <h4>Possible Countries</h4>
         </p>
         <table class="table">
     <thead>
